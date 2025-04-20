@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(211, 211, 211);
+    
+}
+input{
+    background-color: transparent;
+    border: solid 1px black;
+    border-color: white;
+}
+body,main{
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(110, 3, 3),rgb(58, 1, 1), black);
+}
+
+#netflix{
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#centro{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid 1px black;
+    background-color: rgb(12, 12, 12);
+    width: 87%;
+    max-width: 400px;
+    
+
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+#jogo{
+    text-align: left;
+    margin: 20px 5px;
+}
+#opt_{
+    
+    text-align: left;
+    margin: 20px 5px;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+}
+.info{
+    display: none;
+}
+
+.bola{
+    padding: 15px;
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 100%;
+    text-align: center;
+    background-color: rgb(187, 0, 0);
+    color: rgb(187, 0, 0);
+}
+#bolas_{
+    display: inline-block;
+    margin: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#btn_bola{
+    
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 18px;
+    box-shadow: 0 0 10px red;
+    border:0;
+    margin-top: 20px;
+}
+
+.data_{
+    margin: 10px  ;
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#btn_info_1,#btn_info_2{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: gray;
+    border: solid 1px gray;
+    width: 80%;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.data_net{
+    display: inline-block;
+}
+.data_3{
+    margin: 10px 0;
+}
+

